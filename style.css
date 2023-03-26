@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 150px;
     align-items: center;
@@ -43,4 +47,22 @@ section {
 
 .dream-big {
     background-image: url(shapes/);
+}
+
+.exeprience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+#full-stack {
+    border-left: 7px solid tomato;
+}
+
+#baby-developer {
+    border-left: 7px solid blue;
 }
